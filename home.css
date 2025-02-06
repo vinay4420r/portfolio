@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+.body{
+    background-image: url('https://res.cloudinary.com/dsnqf3s0s/image/upload/v1738777806/Desktop_-_4_oz8iiw.png');
+    font-family: 'roboto', sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 10px;
+    color: white;
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-links li {
+    margin: 0 80px;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.heading{
+  color: white;
+  margin-top: 150px;
+  margin-left: 50px;
+  font-size: 25px;
+}
+.text-box{
+    display: flex;
+    width: 903px;
+    height: 300px;
+    font-size: 32px;
+    text-align: justify;
+    line-height: 60px;
+    letter-spacing: 5%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: -3%;
+}
+.uiux{
+    margin-left: 0px;
+  margin-top: 40px;
+
+}
+
+.ui-ux{
+    color: #A3A3A3;
+    font-size: 160px;
+    margin-left: -30%;
+    
+}
+.designer{
+    font-family: 'Rochester', cursive;
+    color:#A200FF;
+    margin-top: -210px;
+    margin-left: -10px;
+    font-size: 100px;
+    position: relative;
+}
+.follow-me-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+position: fixed;
+right: 20px; /* Adjust position */
+top: 55%;
+transform: translateY(-50%);
+}
+
+.follow-me-text {
+writing-mode: vertical-rl; /* Rotate text vertically */
+text-orientation: mixed;
+font-size: 22px;
+color:white ;
+margin-bottom: 10px; /* Space between text and line */
+}
+
+.line {
+width: 2px;
+height: 180px; /* Adjust the length of the line */
+background:white;
+}
+
+.linkedin, .instagram, .facebook, .discord{
+    height: 50px;
+    width: 50px;
+    margin-top: 30%;
+    cursor: pointer;
+}
+
+.buttons{
+    margin-left: 35%;
+}
+.About-me, .hirer-me{
+    font-size: 20px;
+    color: white;
+    background-color: #8A1FD299;
+    margin-left: 6%;
+    margin-top: 4%;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+}
+
